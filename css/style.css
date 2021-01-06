@@ -1,0 +1,237 @@
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#menu {
+	 background-color: rgb(77, 77, 238);
+	color: #FFF;
+	height: 45px;
+	padding-left: 18px;
+}
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+#menu ul {
+	width: 100%;
+}
+#menu li {
+	float: right;
+	display: inline;
+	position: relative;
+}
+#menu a {
+	display: block;
+	line-height: 45px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+section{
+    width: 100%;
+    height: 500px;
+    margin: 25px 0;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-weight: 200;
+    font-size: 14px;
+}
+.nameHighlight{
+    color:#F88869;
+    text-transform: uppercase;
+}
+.top-half{
+    float: left;
+    width: 40%;
+    margin-left:5%;
+}
+.top-half img{
+    width: 100%;
+    height: auto;
+}
+.top-half a{
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image:linear-gradient(45deg,blue, tomato);
+    color: #fff;
+}
+.middle-half{
+    float: left;;
+    width: 40%;
+    margin-left: 5%;
+}
+.middle-half img{
+    width: 100%;
+    height: auto;
+}
+.middle-half a{
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image:linear-gradient(45deg,blue, tomato);
+    color: #fff;
+}
+
+
+
+
+.card{
+    display: block;
+    margin-left: 4%;
+    float: left;
+    width: 25%;
+    height: auto;
+    background-color: #fff;
+    text-align: justify;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.work-title{
+    text-align: center;
+   
+}
+.works{
+    display: block;
+    background-color:rgba(128, 128, 128, 0.157);
+    width: 100%;
+    height: 500px;
+    margin: 3px;
+    clear: both;
+}
+
+.footer-top{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    text-align: center;
+   
+
+}
+.bg{
+    background: url(/img/Group_33094_1.png) no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-position-y: center;
+    background-position-x: center;
+    width: 650px;
+    height: 400px;
+    margin: 0 25%;
+   
+}
+.footer-item{
+    float: left;
+    width: 50%;
+    padding-left:8%;
+}
+.heading {
+    margin-top: 145px;
+    padding-left: 10px;
+}
+.btn{
+width: 40%;
+margin-top: 183px;
+}
+
+.btn a{
+    text-decoration:none;
+    padding: 10px 20px;
+    border-radius:5px;
+    background-image:linear-gradient(45deg,lightsalmon, tomato);
+}
+.social-icon{
+    margin-top: -90px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.social-icon .heading{
+    font-weight: 200;
+}
+.social-icon img{
+    width: 55px;
+    height: auto;
+}
+.social-icon .second-img{
+        margin: 0 20px;
+}
+
+.container-contact2 {
+    width: 100%;
+    background-image:linear-gradient(45deg,blue, tomato);
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 72px 55px 90px 55px;
+    margin-top:50px
+}
+
+
+.contact-card{
+    display: block;
+    float: left;
+    margin:0 auto;
+    width: 40%;
+    background-color: #fff;
+    text-align: justify;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-left:20% ;
+}
+.card-input{
+    padding: 5px 0;
+}
+
+.contact2-form-title {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 90px;
+}
+input.input2 {
+    height: 45px;
+}
+.input2 {
+    display: block;
+    width: 100%;
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+}
+textarea, input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form-btn{
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image:linear-gradient(45deg,rgb(73, 73, 246), tomato);
+    color: #fff;
+}
+
